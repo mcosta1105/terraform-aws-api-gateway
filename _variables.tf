@@ -59,7 +59,7 @@ variable "routes" {
     route_mapping    = string
     path_parameters  = list(string)
     connection_type  = string
-    authorization    = bool
+    authorization    = optional(bool)
   }))
 }
 
